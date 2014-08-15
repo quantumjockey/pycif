@@ -28,7 +28,7 @@
 # - symmetry_space_group_name_H_M :: String
 # - space_group_symop_operation_xyz :: [String]
 # - atom_sites :: [AtomSite]
-# - atom_sites_aniso :: [AtomSiteAniso]
+# - atom_sites_aniso :: [AtomSiteAnisotropic]
 
 # object body
 class Mineral:

@@ -6,6 +6,30 @@
 # Dependencies
 
 
+# Expected types
+# - author_name :: [String]
+# - journal_name :: String
+# - journal_volume :: String
+# - journal_year :: Integer
+# - journal_page_first :: Integer
+# - journal_page_last :: Integer
+# - journal_section_title :: String
+# - amcsd_database_code = 0
+# - chemical_name :: String
+# - chemical_formula_sum :: String
+# - cell_length_a :: Float
+# - cell_length_b :: Float
+# - cell_length_c :: Float
+# - cell_angle_alpha :: Integer
+# - cell_angle_beta :: Integer
+# - cell_angle_gamma :: Integer
+# - cell_volume :: Float
+# - exptl_crystal_density_diffrn :: Float
+# - symmetry_space_group_name_H_M :: String
+# - space_group_symop_operation_xyz :: [String]
+# - atom_sites :: [AtomSite]
+# - atom_sites_aniso :: [AtomSiteAniso]
+
 # script body for file processing
 class Mineral:
 	def __init__(self):

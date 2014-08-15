@@ -6,6 +6,13 @@
 # Dependencies
 
 
+# Expected types
+# - label :: String
+# - fract_x :: Float
+# - fract_y :: Float
+# - fract_z :: Float
+# - occupancy :: Float
+
 # script body for file processing
 class AtomSite:
 	def __init__(self, label, fract_x, fract_y, fract_z, occupancy):

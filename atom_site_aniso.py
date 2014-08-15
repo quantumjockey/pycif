@@ -6,6 +6,15 @@
 # Dependencies
 
 
+# Expected types
+# - label :: String
+# - U_11 :: Float
+# - U_22 :: Float
+# - U_33 :: Float
+# - U_12 :: Float
+# - U_13 :: Float
+# - U_23 :: Float
+
 # script body for file processing
 class AtomSiteAniso:
 	def __init__(self, label, U_11, U_22, U_33, U_12, U_13, U_23):

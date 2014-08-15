@@ -30,7 +30,7 @@
 # - atom_sites :: [AtomSite]
 # - atom_sites_aniso :: [AtomSiteAniso]
 
-# script body for file processing
+# object body
 class Mineral:
 	def __init__(self):
 		self.author_name = []

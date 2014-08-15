@@ -15,7 +15,7 @@
 # - U_13 :: Float
 # - U_23 :: Float
 
-# script body for file processing
+# object body
 class AtomSiteAniso:
 	def __init__(self, label, U_11, U_22, U_33, U_12, U_13, U_23):
 		self.label = label

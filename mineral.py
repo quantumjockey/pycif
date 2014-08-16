@@ -14,7 +14,7 @@
 # - journal_page_first :: Integer
 # - journal_page_last :: Integer
 # - journal_section_title :: String
-# - amcsd_database_code = 0
+# - amcsd_database_code :: Integer
 # - chemical_name :: String
 # - chemical_formula_sum :: String
 # - cell_length_a :: Float

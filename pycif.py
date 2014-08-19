@@ -4,11 +4,26 @@
 # For use with Python v3.x
 
 # Dependencies
+import argparse
 
 
 # script body for file processing
 def main():
 
+	parser = argparse.ArgumentParser()
+	parser.add_argument('infile', type=argparse.FileType('r'), default=sys.stdin, help='File to be parsed.')
+	args = parser.parse_args()
+
+	fileData = args.infile
+	sourceFile = fileData.name
+
+
+# Parse the text file data
+def ProcessTextFile(sourceFile, targetFileDirectory, extension):
+	lineOfData = []
+
+	for line in sourceFile:
+		lineOfData = line.split()
 
 
 # Call main function
